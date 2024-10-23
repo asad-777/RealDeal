@@ -161,7 +161,6 @@ body {
     width: 80%;
   }
   .result_pannel {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;

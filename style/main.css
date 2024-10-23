@@ -69,8 +69,8 @@ body {
   box-shadow: 4px 4px 8px black;
 }
 .result_01 {
-  width: 95%;
-  height: 95%;
+  width: 97%;
+  height: 97%;
   background-color: var(--background-color);
   display: flex;
   align-items: center;
@@ -151,5 +151,31 @@ body {
   &:hover {
     background-color: grey;
     box-shadow: 2px 2px 4px rgba(200, 200, 200, 0.3);
+  }
+}
+@media (max-width: 400px) {
+  .input_pannel {
+    width: 95%;
+  }
+  .input_for_agre {
+    width: 80%;
+  }
+  .result_pannel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .background_buyyer {
+    width: 90%;
+    height: 50%;
+  }
+  .background_seller {
+    width: 90%;
+    height: 50%;
+    margin-bottom: 5vw;
+  }
+  .header_tag {
+    width: 50%;
   }
 }
